@@ -1,4 +1,4 @@
-const lightboxPlusJqueryMin = require("./lightbox-plus-jquery.min");
+// const lightboxPlusJqueryMin = require("./lightbox-plus-jquery.min");
 
 /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
 var prevScrollpos = window.pageYOffset;
@@ -11,7 +11,3 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
-
-lightbox.option({
-    'wrapAround': true
-})
