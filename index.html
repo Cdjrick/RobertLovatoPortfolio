@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />      
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+        <link rel='stylesheet' type='text/css' href="./css/lightbox.min.css">
+        <link rel="stylesheet" type='text/css' href="./css/index.css">
+        <!-- <link rel="stylesheet" href="https://use.typekit.net/onx2apf.css"> -->
+
+        <title>Robert Lovato</title>
+
+            <!-- Nav Bar -->
+            <nav class="nav navbar navbar-expand-md navbar-light navbar-bg-light">
+                <div class="container-fluid">
+
+                    <h3 class="brandName navbar-brand mt-2" src="">Robert Lovato</h3>
+
+                    <!-- Nav Hamburger Button -->
+                    <button class="navbar-toggler mt-2" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                    <!-- Nav Items -->
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">ABOUT ME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#myWork">MY WORK</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CONTACT ME</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+
+    </head>
+    <body>
+        
+            <!-- Background Parallax Pic 1 -->
+            <div id='home' class="parallax1">
+                <p class='demoReelP'>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur culpa perferendis expedita deleniti aperiam, et officia ipsum necessitatibus, 
+                    dolores consequatur corrupti. Quas rem quaerat quod dolorem quasi sunt dignissimos consectetur.
+                </p>
+                <div class='videoPlayer'>
+                    <video src='./assets/DemoReel.mp4' class='video' controls>
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+            <p id='myWork'>
+                My Work
+            </p>
+
+            <!-- Background Parallax Pic 2 -->
+            <div class="parallax2">
+                <div class="caption">
+                    <h3>Explanation of work that is displayed here</h3>
+                </div>
+            </div>
+
+            <!-- Background Parallax Pic 3 -->
+            <div class="parallax3">
+                <div class="caption">
+                    <h3>Explanation of another work that you see here</h3>
+                </div>
+            </div>
+
+            <div class='row'>
+                <div class='column'>
+                    <a href='./assets/Antique Radio Wireframe.jpg' data-lightbox='antiqueRadio' data-title='Antique Radio Wireframe'><img class='imgSmall' src='./assets/Antique Radio Wireframe.jpg'></a>
+                    <a href='./assets/Antique Radio.jpg' data-lightbox='antiqueRadio' data-title='Antique Radio'><img class='imgSmall finishedProductImg' src='./assets/Antique Radio.jpg'></a>
+                    
+                    <!-- <a href='./assets/Antique Radio Wireframe.jpg' data-lightbox='mygallery' data-title='Antique Radio Wireframe'><img class='imgSmall' src='./assets/Antique Radio Wireframe.jpg'></a> -->
+                    <!-- <a href='./assets/Antique Radio.jpg' data-lightbox='mygallery' data-title='Antique Radio'><img class='imgSmall' src='./assets/Antique Radio.jpg'></a> -->
+                    
+                    <a href='./assets/Gun.jpg' data-lightbox='gun' data-title='Gun'><img class='imgSmall' src='./assets/Gun.jpg'></a>
+                    <!-- <a href='./assets/Gun.jpg' data-lightbox='mygallery' data-title='Gun'><img class='imgSmall' src='./assets/Gun.jpg'></a> -->
+                </div>
+
+                <div class='column'>
+                    <a href='./assets/Antique Torch Wireframe.jpg' data-lightbox='antiqueTorch' data-title='Antique Torch Wireframe'><img class='imgSmall' src='./assets/Antique Torch Wireframe.jpg'></a>
+                    <a href='./assets/AntiqueTorch.png' data-lightbox='antiqueTorch' data-title='Antique Torch'><img class='imgSmall finishedProductImg' src='./assets/AntiqueTorch.png'></a>
+
+                    <!-- <a href='./assets/Antique Torch Wireframe.jpg' data-lightbox='mygallery' data-title='Antique Torch Wireframe'><img class='imgSmall' src='./assets/Antique Torch Wireframe.jpg'></a>
+                    <a href='./assets/AntiqueTorch.png' data-lightbox='mygallery' data-title='Antique Torch'><img class='imgSmall' src='./assets/AntiqueTorch.png'></a> -->
+                    
+                    <a href='./assets/Sculpt.jpg' data-lightbox='sculpt' data-title='Sculpt'><img class='imgSmall' src='./assets/Sculpt.jpg'></a>
+                    <!-- <a href='./assets/Sculpt.jpg' data-lightbox='mygallery' data-title='Sculpt'><img class='imgSmall' src='./assets/Sculpt.jpg'></a> -->
+                </div>
+
+                <div class='column'>
+                    <a href='./assets/Sodacan Wireframe.PNG' data-lightbox='sodacan' data-title='Soda Can Wireframe'><img class='imgSmall' src='./assets/Sodacan Wireframe.PNG'></a>
+                    <a href='./assets/Sodacan.png' data-lightbox='sodacan' data-title='Soda Can'><img class='imgSmall finishedProductImg' src='./assets/Sodacan.png'></a>
+
+                    <!-- <a href='./assets/Sodacan Wireframe.PNG' data-lightbox='mygallery' data-title='Soda Can Wireframe'><img class='imgSmall' src='./assets/Sodacan Wireframe.PNG'></a>
+                    <a href='./assets/Sodacan.png' data-lightbox='mygallery' data-title='Soda Can'><img class='imgSmall' src='./assets/Sodacan.png'></a> -->
+
+                    <a href='./assets/Hand.jpg' data-lightbox='hand' data-title='Hand'><img class='imgSmall' src='./assets/Hand.jpg'></a>
+                    <!-- <a href='./assets/Hand.jpg' data-lightbox='mygallery' data-title='Hand'><img class='imgSmall' src='./assets/Hand.jpg'></a> -->
+                </div>
+                
+                <div class='column'>
+                    <a href='./assets/Rim Wireframe.PNG' data-lightbox='rim' data-title='Rim Wireframe'><img class='imgSmall' src='./assets/Rim Wireframe.PNG'></a>
+                    <a href='./assets/Rim.png' data-lightbox='rim' data-title='Rim'><img class='imgSmall finishedProductImg' src='./assets/Rim.png'></a>
+
+                    <!-- <a href='./assets/Rim Wireframe.PNG' data-lightbox='mygallery' data-title='Rim Wireframe'><img class='imgSmall' src='./assets/Rim Wireframe.PNG'></a>
+                    <a href='./assets/Rim.png' data-lightbox='mygallery' data-title='Rim'><img class='imgSmall' src='./assets/Rim.png'></a> -->
+                </div>
+            </div>
+
+        <script src="./js/lightbox-plus-jquery.min.js"></script>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
